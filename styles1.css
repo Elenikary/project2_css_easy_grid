@@ -1,0 +1,104 @@
+.container {  
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header Header Header Header Header Header Header Header Header Header"
+      "Sidebar1 Sidebar1 Sidebar1 Sidebar1 Sidebar1 Sidebar1 Sidebar2 Sidebar2 Sidebar2 Sidebar2 Sidebar2 Sidebar2"
+      "Main Main Main Main Main Main Main Main Main Aside Aside Aside"
+      "Sidebar3 Sidebar3 Sidebar3 Sidebar3 Sidebar4 Sidebar4 Sidebar4 Sidebar4 Sidebar5 Sidebar5 Sidebar5 Sidebar5"
+      "Main2 Main2 Main2 Main2 Main2 Main2 Main2 Main2 Main2 Main2 Main2 Main2";
+    
+    height: 200vh;
+    overflow: hidden;
+    grid-gap: 0px;
+
+}
+
+.container > div {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  
+.Header{ 
+    grid-area: Header; 
+    background-color: #F49D37;
+    text-align: center;
+    padding: 110px;
+    }
+  
+.Sidebar1{ 
+    grid-area: Sidebar1; 
+    background-color: #d72638;
+    padding: 110px;
+    }
+
+.Sidebar3{ 
+    grid-area: Sidebar3; 
+    background-color: #d72638;
+    padding: 110px;
+    }
+
+.Sidebar5{ 
+    grid-area: Sidebar5; 
+    background-color: #d72638;
+    padding: 110px;
+    }
+
+.Sidebar2{ 
+    grid-area: Sidebar2; 
+    background-color: #9accec;
+    padding: 110px;
+    }
+    
+.Sidebar4{ 
+    grid-area: Sidebar4; 
+    background-color: #9accec;
+    padding: 110px;
+} 
+  
+.Main{ 
+    grid-area: Main; 
+    background-color: #3f88c5;
+    padding: 110px;
+    }
+
+.Main2{ 
+    grid-area: Main2; 
+    background-color: #3f88c5;
+    padding: 110px;
+    }
+  
+.Aside{ 
+    grid-area: Aside; 
+    background-color: #e78543;
+    padding: 110px;
+        }
+
+footer {
+    background-color: #f22b29; 
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+   
+@media (max-width: 600px){
+    .container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header"
+      "Sidebar1"
+      "Sidebar2"
+      "Footer"
+    }
+}
