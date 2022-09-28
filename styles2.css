@@ -6,10 +6,6 @@ CHANGE THE COLORS IN ALL CONTAINTERS
 
 MAKE RESPONSIVE
 
-&&
-
-FIGURE OUT THE SPAN IN MULTIPLE ROWS & FIX THE NUMBER OF ROWS / COLUMNS 
-
 */
 
 
@@ -34,14 +30,14 @@ FIGURE OUT THE SPAN IN MULTIPLE ROWS & FIX THE NUMBER OF ROWS / COLUMNS
     text-align: center;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: black;
   }
   
 .Header{ 
     grid-area: Header; 
-    background-color: aqua;
+    background-color: #ffcc40;
     text-align: center;
-    padding: 45px;
+    padding: 110px;
     }
   
 .Sidebar{ 
@@ -50,86 +46,83 @@ FIGURE OUT THE SPAN IN MULTIPLE ROWS & FIX THE NUMBER OF ROWS / COLUMNS
     grid-row-end: 5;
     grid-column-start: 9;
     grid-column-end: 13;
-    background-color: pink;
-    padding: 125px;
+    background-color: #40CEF5;
+    padding: 240px;
+    padding-left: 40%;
     }
-
-/*.Sidebar1{ 
-    grid-area: Sidebar1; 
-    background-color: pink;
-    padding: 0;
-    }*/
 
 .Small{ 
     grid-area: Small; 
-    background-color: brown;
-    padding: 45px;
+    background-color: #ff8360;
+    padding: 110px;
     }
 
 .Small1{ 
     grid-area: Small1; 
-    background-color: yellow;
-    padding: 45px;
+    background-color: #ff8360;
+    padding: 110px;
     }
     
 .Small2{ 
     grid-area: Small2; 
-    background-color: yellow;
-    padding: 45px;
+    background-color: #ff8360;
+    padding: 110px;
     margin-bottom: -50px;
 
 } 
 
 .Small3{ 
     grid-area: Small3; 
-    background-color: bisque;
-    padding: 45px;
+    background-color: #ff8360;
+    padding: 110px;
     margin-bottom: -50px;
     }
 
 .Medium{ 
     grid-area: Medium; 
-    background-color: bisque;
-    padding: 45px;
+    background-color: #0EFAEE;
+    padding: 110px;
     }
 
 .Medium1{ 
     grid-area: Medium1; 
-    background-color: black;
-    padding: 45px;
+    background-color: #0EFAEE;
+    padding: 110px;
     margin-bottom: -50px;
 
     }
   
 .Main{ 
     grid-area: Main; 
-    background-color: bisque;
-    padding: 45px;
+    background-color: #ff4f4f;
+    padding: 110px;
     }
 
 .Quote{ 
     grid-area: Quote; 
-    background-color: teal;
-    padding: 45px;
+    background-color: pink;
+    padding: 110px;
     }
   
 .Lg{ 
     grid-area: Lg; 
-    background-color: magenta;
-    padding: 45px;
+    background-color: #7dce82;
+    padding: 110px;
     margin-bottom: -50px;
 
         }
         
 .img{ 
     grid-area: img; 
-    background-color: bisque;
-    padding: 45px;
+    background-color: #7dce82;
+    padding: 110px;
     }
 
 footer {
-    background-color: blue; 
+    background-color: #F8C715; 
     padding: 20px;
     text-align: center;
     margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
